@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotal</title>
+
+
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" href="images/logo_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- OWL links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="images/logo_2.png" alt="">
+            </div>
+
+            <div class="navlinks">
+                <ul id="menulist">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#rooms">rooms</a></li>
+                    <li><a href="#pages">pages</a></li>
+                    <li><a href="#news">news</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><i class="fa fa-search"></i></li>
+                    <li><button class="primary-btn">BOOK NOW</button></li>
+                </ul>
+                <span class="fa fa-bars" onclick="menuToggle()"></span>
+            </div>
+
+        </div><!-- End of content flex_space -->
+    </header>
+
+
+    <!-- start of home section -->
+    <section class="home">
+        <div class="content">
+            <div class="owl-carousel owl-carousel2 owl-theme">
+
+                <div class="item">
+                    <img src="images/home_1.jpg" alt="">
+
+                    <div class="text">
+                        <h1>Spend your holiday</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, deleniti?</p>
+                        <div class="flex">
+                            <button class="primary-btn">READ MORE</button>
+                            <button class="secondary-btn">CONTACT US</button>
+                        </div>
+                    </div>
+                </div><!-- end of item 1 -->
+
+
+                <div class="item">
+                    <img src="images/home_3.jpg" alt="">
+
+                    <div class="text">
+                        <h1>Spend your holiday</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, deleniti?</p>
+                        <div class="flex">
+                            <button class="primary-btn">READ MORE</button>
+                            <button class="secondary-btn">CONTACT US</button>
+                        </div>
+                    </div>
+                </div><!-- end of item 2 -->
+
+
+                <div class="item">
+                    <img src="images/home_5.jpg" alt="">
+
+                    <div class="text">
+                        <h1>Spend your holiday</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, deleniti?</p>
+                        <div class="flex">
+                            <button class="primary-btn">READ MORE</button>
+                            <button class="secondary-btn">CONTACT US</button>
+                        </div>
+                    </div>
+                </div><!-- end of item 3 -->
+
+            </div><!-- end of owl-carousel -->
+
+        </div><!-- end of content -->
+    </section>
+    <!-- end of home section -->
+
+
+    <!-- start of book section -->
+    <section class="book">
+        <div class="container flex_space">
+            <div class="text">
+                <h1><span>book</span> your rooms</h1>
+            </div>
+
+            <div class="form">
+                <form class="grid">
+                    <input type="date" placeholder="Araival Date" name="" id="">
+                    <input type="date" placeholder="Departure Date" name="" id="">
+                    <input type="number" placeholder="Adults" name="" id="">
+                    <input type="number" placeholder="Childern" name="" id="">
+                    <input type="submit" value="CHECK AVATLABILTY">
+                </form>
+            </div>
+
+        </div><!-- end of container -->
+    </section>
+    <!-- end of book section -->
+
+
+    <!-- start of about section -->
+    <section id="about" class="about top">
+        <div class="container flex">
+
+            <div class="left">
+                <div class="heading">
+                    <h1>WLECOME</h1>
+                    <h2>Crown hotel</h2>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur cupiditate culpa mollitia!
+                    Reiciendis, exercitationem pariatur neque quas
+                    dignissimos sed corrupti velit incidunt deserunt! Ipsam modi fuga in praesentium quod! Esse.
+                </p>
+
+                <button class="primary-btn">ABOUT US</button>
+            </div><!-- end of left -->
+
+
+            <div class="right">
+                <img src="images/Welcome.jpg" alt="">
+            </div><!-- end of right -->
+
+        </div><!-- end of container -->
+    </section>
+    <!-- end of about section -->
+
+
+    <!-- start of counter section -->
+    <section class="counter top">
+        <div class="container grid">
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span>customer</span>
+            </div>
+
+            <div class="box">
+                <h1>1250</h1>
+                <hr>
+                <span>happy customer</span>
+            </div>
+
+            <div class="box">
+                <h1>500</h1>
+                <hr>
+                <span>Expert technicians</span>
+            </div>
+
+            <div class="box">
+                <h1>3500</h1>
+                <hr>
+                <span>desktop reaqired</span>
+            </div>
+        </div><!-- end of container -->
+    </section>
+    <!-- end of counter section -->
+
+
+    <!-- start of rooms section -->
+    <section id="rooms" class="rooms">
+        <div class="container top">
+            <div class="heading">
+                <h1>EXPLORE</h1>
+                <h2>our rooms</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum ex culpa blanditiis expedita, atque beatae aliquid esse. Eius, architecto aspernatur.
+                </p>
+            </div><!-- end of heading -->
+
+
+            <div class="content mtop">
+                <div class="owl-carousel owl-carousel3 owl-theme">
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_1.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 1 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_2.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 2 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_9.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 3 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_4.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 4 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_5.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 5 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_6.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 6 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_7.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 7 -->
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/room_8.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>suporior rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>$250 <span> <br> Per night </span> </h3>
+                            </div>
+                        </div>
+
+                    </div><!-- end of item 8 -->
+
+                </div><!-- end of owl-carousel -->
+            </div><!-- end of content -->
+        </div><!-- end of container -->
+    </section>
+    <!-- end of rooms section -->
+
+
+    <!-- start of gallery section -->
+    <section class="gallery">
+        <div class="container top">
+            <div class="heading">
+                <h1>PHOTOS</h1>
+                <h2>our gallery</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, repellendus?</p>
+            </div>
+
+            <div class="content mtop">
+                <div class="owl-carousel owl-carousel4 owl-theme">
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/room_1.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 1 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/home_3.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 2 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/home_4.png" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 3 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/room_7.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 4 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/room_4.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 5 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/room_5.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 6 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/home_1.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 7 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/room_9.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 8 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/home_5.jpg" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 9 -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/home_4.png" alt="">
+                        </div>
+
+                        <div class="overlay">
+                            <span class="fa fa-plus"></span>
+                            <h3>photo title here</h3>
+                        </div>
+
+                    </div><!-- end of item 10 -->
+
+                </div><!-- end of owl-carousel-->
+            </div>
+
+        </div><!-- end of container-->
+    </section>
+    <!-- end of gallery section -->
+
+
+    <!-- start of services section -->
+    <section class="services top">
+        <div class="container">
+            <div class="heading">
+                <h1>SERVICES</h1>
+                <h2>our services</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, impedit.</p>
+            </div>
+
+
+            <div class="content flex_space">
+                <div class="left grid2">
+                    <div class="box">
+                        <div class="text">
+                            <i class="fas fa-hamburger"></i>
+                            <h3>Delious Food</h3>
+                        </div>
+                    </div><!-- end of box -->
+
+                    <div class="box">
+                        <div class="text">
+                            <i class="fas fa-heartbeat"></i>
+                            <i class="fa-solid fa fa-person-biking"></i>
+                            <h3>fintness</h3>
+                        </div>
+                    </div><!-- end of box -->
+
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa fa-utensils"></i>
+                            <h3>Inhouse restaurant</h3>
+                        </div>
+                    </div><!-- end of box -->
+
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa fa-spa"></i>
+                            <h3>beauty spa</h3>
+                        </div>
+                    </div><!-- end of box -->
+
+                </div><!-- end of left -->
+
+
+                <div class="right">
+                    <img src="images/service.jpg" alt="">
+                </div>
+            </div>
+
+        </div><!-- end of container -->
+    </section>
+    <!-- end of services section -->
+
+
+
+    <!-- start of customer section -->
+    <section class="customer top">
+        <div class="container">
+
+
+            <div class="owl-carousel owl-carousel5 owl-theme">
+
+                <div class="item">
+                    <i class="fa-solid fa fa-quote-right"></i>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                    </p>
+                    <h3>jone robert</h3>
+                    <label for="">jone robert</label>
+                </div><!-- end of item 1 -->
+
+                <div class="item">
+                    <i class="fa-solid fa fa-quote-right"></i>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                    </p>
+                    <h3>jone robert</h3>
+                    <label for="">jone robert</label>
+                </div><!-- end of item 2 -->
+
+                <div class="item">
+                    <i class="fa-solid fa fa-quote-right"></i>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Nihil perferendis alias, dolorum pariatur id atque aut dolores tempore amet beatae?
+                    </p>
+                    <h3>jone robert</h3>
+                    <label for="">jone robert</label>
+                </div><!-- end of item 3 -->
+            </div>
+
+        </div><!-- end of container -->
+    </section>
+    <!-- end of customer section -->
+
+
+    <!-- start of news section -->
+    <section class="news top rooms" id="news">
+        <div class="container">
+            <div class="heading">
+                <h1>NEWS</h1>
+                <h2>our news</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi
+                    quisquam illum quidem laborum voluptatibus, at corrupti exercitationem porro consequuntur!
+                </p>
+            </div>
+
+
+            <div class="content flex">
+                <div class="left grid2">
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/news_1.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Finibus bonorum malorm</h2>
+                            <div class="admin flex">
+                                <i class="fa fa-user"></i>
+                                <label for="">admin</label>
+                                <i class="fa af-heart"></i>
+                                <label for="">500</label>
+                                <i class="fa fa-comments"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quasi dignissimos
+                                repudiandae officiis cum voluptate necessitatibus suscipit q
+                                uam aperiam corporis vitae reiciendis ad ipsum voluptatibus fugiat quo libero, officia
+                                sit?
+                            </p>
+                        </div>
+                    </div><!-- end of item 1 -->
+
+
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/news_2.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Finibus bonorum malorm</h2>
+                            <div class="admin flex">
+                                <i class="fa fa-user"></i>
+                                <label for="">admin</label>
+                                <i class="fa af-heart"></i>
+                                <label for="">500</label>
+                                <i class="fa fa-comments"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt quasi dignissimos
+                                repudiandae officiis cum voluptate necessitatibus suscipit q
+                                uam aperiam corporis vitae reiciendis ad ipsum voluptatibus fugiat quo libero, officia
+                                sit?
+                            </p>
+                        </div>
+                    </div><!-- end of item 2 -->
+
+                </div><!-- end of left -->
+
+
+
+
+                <div class="right">
+
+                    <div class="box flex">
+                        <div class="img">
+                            <img src="images/news_3.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>etiam vel nequ</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, obcaecati.</p>
+                        </div>
+                    </div><!-- end of box -->
+
+
+                    <div class="box flex">
+                        <div class="img">
+                            <img src="images/news_4.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>etiam vel nequ</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, obcaecati.</p>
+                        </div>
+                    </div><!-- end of box -->
+
+
+                    <div class="box flex">
+                        <div class="img">
+                            <img src="images/news_5.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h2>etiam vel nequ</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, obcaecati.</p>
+                        </div>
+                    </div><!-- end of box -->
+
+                </div><!-- end of right -->
+
+
+            </div><!-- end of content -->
+
+        </div><!-- end of container -->
+    </section>
+    <!-- end of news section -->
+
+
+
+    <!-- start of newsletter section -->
+    <section class="newsletter mtop">
+        <div class="container flex_space">
+            <h1>subscribe to our newsletter</h1>
+            <input type="text" placeholder="Your Email" name="" id="">
+            <input type="submit" value="Subscribe">
+        </div>
+    </section>
+    <!-- end of newsletter section -->
+
+
+
+    <footer>
+        <div class="container grid">
+
+            <div class="box">
+                <img src="images/logo_2.png"  alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit aperiam iste consectetur laudantium sint natus evenie
+                    t aut minus, architecto odit nam voluptatum dolorum veniam voluptatem eos excepturi quo hic.
+                </p>
+
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div><!-- end of box 1 -->
+
+
+            <div class="box">
+                <h2>links</h2>
+                <ul>
+                    <li>Company history</li>
+                    <li>about us</li>
+                    <li>contact us</li>
+                    <li>services</li>
+                    <li>privacy policy</li>
+                </ul>
+            </div><!-- end of box 2 -->
+
+
+            <div class="box">
+                <h2>contact us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, necessitatibus.
+                </p>
+                <i class="fa fa-location-arrow"></i>
+                <label for="">1666 park street, mansours, dakahlia</label><br>
+                <i class="fa fa-phone"></i>
+                <label for="">050 253 142 12</label><br>
+                <i class="fa fa-envelope"></i>
+                <label for="">name@email.com</label><br>
+            </div><!-- end of box 3 -->
+
+
+        </div><!-- end of container -->
+    </footer>
+
+
+    <div class="created">
+        <p class="container">created by  Maryam Yasser | all rights reserved.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- OWL links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
